@@ -4,7 +4,7 @@
 This repository contains IRC bots used on a channel I currently run, #sudoers.  
 
 ##logbot
-LogBot is pretty self-explanatory - it logs chats. You can put LogBot in as many channels as you like. Logs will be put in separate files with this naming convention: "log<channel>.txt".
+LogBot is pretty self-explanatory - it logs chats. You can put LogBot in as many channels as you like. Logs will be put in separate files with this naming convention: "log\<channel\>.txt".
 ###Commands
 Send LogBot commands by addressing it, followed by your command.
 * start logging  
@@ -22,3 +22,6 @@ LogBot will reply to you indicating whether it is collecting logs.
 ###Planned additions
 * timestamps
 * improve regexes
+
+##stormy
+Stormy just waits until he hears something about thunder, then says <3 thunder until you tell him to shut up (stormy: shut up). Nothing else to say, really.
