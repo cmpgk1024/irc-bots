@@ -23,12 +23,10 @@ sub said {
       my ($self, $message) = @_;
       if (lc($message->{body}) =~ /\bthunder\b/) {
       	$storming = 1;
-      	print "thunderstorm time!";
       	return undef;
       }
       #elsif($message->{body} =~ /\b(S|s)top\b/ && $message->{body} =~ /($stormy->nick)/){
-     elsif(lc($message->{body}) =~ /\bshut up\b/){
-     	print "no more thunder D:";
+     elsif(lc($message->{body}) =~ /\bshut up\b/ && $message->{address}){
 		$storming = 0;
     	return undef;
       }
