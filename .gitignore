@@ -1,0 +1,5 @@
+log*.txt
+logbot.properties
+logs/
+logbotstate.properties
+*.*~
