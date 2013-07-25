@@ -27,13 +27,13 @@ requires operator status
 
 ##Configuration
 Make a file called "logbot.properties" in the same file as the script. Sample config file:  
-`cryptokey=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa  
-nickpass=password  
-nick=loggerbot  
-server=irc.foonetic.net  
-port=6697  
-ssl=1  
-channels=#xyz  `
+`cryptokey=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa`  
+`nickpass=password`  
+`nick=loggerbot`  
+`server=irc.foonetic.net`  
+`port=6697`  
+`ssl=1`  
+`channels=#xyz`  
 
 ###Bugs
 - does not log itself - overriding say subroutine might be necessary
