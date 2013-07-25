@@ -25,7 +25,7 @@ requires operator status
 * delete logs / erase logs  
 requires operator status
 
-##Configuration
+###Configuration
 Make a file called "logbot.properties" in the same file as the script. Sample config file:  
 `cryptokey=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa`  
 `nickpass=password`  
